@@ -24,5 +24,4 @@ public class Consulta {
     @JoinColumn(name = "recepcionista_id", nullable = false)
     private Recepcionista recepcionista;
 
-    // getters e setters
 }
