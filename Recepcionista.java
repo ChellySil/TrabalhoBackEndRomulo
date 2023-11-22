@@ -22,6 +22,4 @@ public class Recepcionista {
 
     @OneToMany(mappedBy = "recepcionista", cascade = CascadeType.ALL)
     private List<Consulta> consultas;
-
-    // getters e setters
 }
