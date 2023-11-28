@@ -9,7 +9,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "Consulta")
-public class Consulta implements Serializable {
+public class Consulta {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer idConsulta;
