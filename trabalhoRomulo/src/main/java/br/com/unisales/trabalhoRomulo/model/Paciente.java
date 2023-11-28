@@ -8,7 +8,7 @@ import java.io.Serializable;
 import javax.persistence.*;
 @Entity
 @Table(name = "Paciente")
-public class Paciente implements Serializable {
+public class Paciente {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
