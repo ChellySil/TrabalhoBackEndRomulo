@@ -5,7 +5,7 @@ import org.springframework.lang.NonNull;
 
 import java.io.Serializable;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 @Entity
 @Table(name = "Paciente")
 public class Paciente {

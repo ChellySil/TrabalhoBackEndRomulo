@@ -1,14 +1,14 @@
 package br.com.unisales.trabalhoRomulo.model;
-import javax.persistence.spi.*;
 
 import org.springframework.lang.NonNull;
 
 import java.io.Serializable;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+
 @Entity
 @Table(name = "UsuarioRecepcionista")
-public class UsuarioRecepcionista {
+public class UsuarioRecepcionista{
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int idRecepcionista;

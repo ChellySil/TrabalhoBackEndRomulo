@@ -1,11 +1,9 @@
 package br.com.unisales.trabalhoRomulo.model;
-import javax.persistence.spi.*;
 
 import org.springframework.lang.NonNull;
-
 import java.io.Serializable;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "Consulta")
@@ -28,7 +26,7 @@ public class Consulta {
 	
 	@NonNull
 	@Column(name = "data", nullable = false, length=15)
-	private String data
+	private String data;
 	;
 	@NonNull
 	@Column(name = "hora", nullable = false, length=15)
